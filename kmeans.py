@@ -16,7 +16,7 @@ def distance_calculator(v1, v2 ): #distance between the vectors
 
     return distance
 
-def update_centroid (i, k_centroids, clusters, vectors_length): # update of k_centroids[i]
+def update_centroid (i, k_centroids, clusters, vectors_length): #update of k_centroids[i]
 
     folder = clusters[i] ## contains all the cluster's vectors
     folder_length = len(folder) ## =: number of vectors in the folder (in the cluster..) 
